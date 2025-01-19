@@ -122,4 +122,19 @@ return [
         ],
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Tarkiman AegisLabs Test Mail Settings
+    |--------------------------------------------------------------------------
+    |
+    | If you are using Markdown based email rendering, you may configure your
+    | theme and component paths here, allowing you to customize the design
+    | of the emails. Or, you may simply stick with the Laravel defaults!
+    |
+    */
+    'mail_notify' => [
+        'sys_admin' => env('MAIL_SYSTEM_ADMINISTRATOR', 'tarkiman.mail@gmail.com'),
+        'cc' => env('MAIL_CC', 'tarkiman.zone@gmail.com')
+    ]
+
 ];
