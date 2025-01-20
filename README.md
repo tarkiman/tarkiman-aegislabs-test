@@ -18,8 +18,8 @@ MAIL_SYSTEM_ADMINISTRATOR=tarkiman.mail@gmail.com
 
 ## Breakdown Features 
 1. Endpoints 
-- [POST] `/api/v1/users - Create a new user`
-- [GET] `/api/v1/users - Get all users with filter`
+- [POST] `/api/users - Create a new user`
+- [GET] `/api/users - Get all users with filter`
 2. with `Swagger OpenAPIs` Documentation
 3. with `Unit Test`, can run with `php artisan test`
 4. with `Documentation Test` for evidence in each PR (`Pull Request`)
