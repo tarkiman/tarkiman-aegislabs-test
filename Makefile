@@ -5,4 +5,4 @@ dev:
 deploy:
 	#scp -r -P 64000 
 test:
-	./vendor/bin/phpunit
+	php artisan test
